@@ -1,0 +1,27 @@
+<?php
+/**
+ * @package WordPress
+ * @subpackage Default_Theme
+ */
+
+/*
+Template Name: Links
+*/
+?>
+
+<?php get_header(); ?>
+
+<div id="main">
+<?php get_sidebar(); ?>
+<div id="content">
+
+<h2>Links:</h2>
+<ul>
+<?php wp_list_bookmarks(); ?>
+</ul>
+
+</div>
+
+</div>
+
+<?php get_footer(); ?>
